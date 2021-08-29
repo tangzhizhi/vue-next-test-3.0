@@ -23,7 +23,6 @@ export default {
   setup() {
     let count = ref(0);
     const object = reactive({ foo: "bar" });
-
     setTimeout(() => {
       count.value++;
       console.log(count, "====", object);

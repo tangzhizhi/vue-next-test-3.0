@@ -3,7 +3,9 @@
     <div>123{{ $tng }}{{ $options.hello }}{{ user }}</div>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
-    <router-link to="/helloSetup">helloSetup</router-link>
+    <router-link to="/helloSetup">helloSetup</router-link> | 
+    <router-link to="/reactiveTest">reactiveTest</router-link> |
+    <router-link to="/refsTest">refsTest</router-link> 
   </div>
   <router-view />
 </template>
